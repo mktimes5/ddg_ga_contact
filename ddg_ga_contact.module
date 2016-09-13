@@ -34,7 +34,7 @@ function _ddg_ga_contact_set_selectors_array() {
   $selectors = array(
     array(
       'event' => 'mousedown',
-      'selector' => 'webform-submit',
+      'selector' => 'edit-webform-ajax-submit-4',
       'category' => 'webform submission',
       'action' => 'click',
       'label' => 'contact submission',
