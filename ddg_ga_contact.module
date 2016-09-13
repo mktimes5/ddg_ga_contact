@@ -26,7 +26,7 @@ function ddg_ga_contact_google_analytics_et_api() {
 }
 
 /**
- * Internal function returns the example selectors array.
+ * 
  */
 function _ddg_ga_contact_set_selectors_array() {
   $selectors = array();
