@@ -34,52 +34,13 @@ function _ddg_ga_contact_set_selectors_array() {
   $selectors = array(
     array(
       'event' => 'mousedown',
-      'selector' => 'a',
-      'category' => 'main navigation',
+      'selector' => 'webform-submit',
+      'category' => 'webform submission',
       'action' => 'click',
-      'label' => '!test',
+      'label' => 'contact submission',
       'value' => 0,
       'noninteraction' => TRUE,
-    ),
-    array(
-      'event' => 'mousedown',
-      'selector' => '#page-title',
-      'category' => 'main navigation',
-      'action' => 'click',
-      'label' => '!test',
-      'value' => 0,
-      'noninteraction' => TRUE,
-      'options' => array(
-        'trackOnce' => TRUE
-      ),
-    ),
-    array(
-      'event' => 'mousedown',
-      'selector' => 'a#logo',
-      'category' => 'Home Link',
-      'action' => 'click',
-      'label' => 'Logo',
-      'value' => 0,
-      'noninteraction' => TRUE,
-    ),
-    array(
-      'event' => 'mousedown',
-      'selector' => 'div',
-      'category' => 'Home Link',
-      'action' => '[site:name]',
-      'label' => 'test',
-      'value' => 0,
-      'noninteraction' => TRUE,
-    ),
-    array(
-      'event' => 'blur',
-      'selector' => '#edit-name',
-      'category' => '[TEST] blurred from the user login username/email input field.',
-      'action' => 'BLUR',
-      'label' => '!test', // !test token causes the the output to be alerted to the screen.
-      'value' => 0,
-      'noninteraction' => TRUE,
-    ),
+    )
   );
 
   return $selectors;
